@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: #eee;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
+}
+
+.header {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.logo {
+font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.top {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    background: #1f2937;
+}
+
+.toptext {
+    display: flex;
+    flex-direction: ;
+}
