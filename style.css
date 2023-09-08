@@ -4,7 +4,7 @@ body {
     text-align: center;
     margin: 0;
     width: 100vw;
-    background: #45b3e6;
+    background: #eee;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
 }
 .main {
@@ -50,37 +50,50 @@ li {
 
 .intro {
     display: flex;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 40px;
     gap: 5%;
-    min-width: 300px;
+    min-width: 100%;
     max-height: 100%;
     text-align: start;
 }
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+}
 
 button {
+    display: flex;
     background-color: #3382f6;
     flex: 0 1 auto;
     width: 100px;
     height: 30px;
     border-radius: 5px;
-    border: none;
-    color: #f9faf8;
+    border-style: solid;
+    border-color: #eee;
+    color: #ffffff;
     font-weight: bold;
     padding-bottom: 2px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
     color: #488ae6;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 10%;
-    min-width: 300px;
+    min-width: auto;
     max-height: 100%;
-    overflow: auto;
+    box-sizing: border-box;
+}
+
+img {
+    
 }
 
 .more-info {
@@ -122,7 +135,7 @@ button {
     margin-left: 10%;
     margin-right: 10%;
     flex-wrap: wrap;
-    text-align: justify;
+    text-align: center;
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
@@ -136,30 +149,36 @@ button {
     margin-right: 10%;
 }
 
-.action {
-    flex-flow: row wrap;
-    background-color: #1F2937;
-    height: 50vh;
-    width: auto;
+.sign-up-section {
     display: flex;
-    align-items: center;    
     justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 36px;
+    background-color: #1b7af7;
+    border-radius: 5px;
+    margin: 100px auto;
     color: #f9faf8;
-    gap: 0;
+    flex-flow: row wrap;
 }
 
 .act-box{
     display: flex;
-    border-style: double;
-    border-color: #eee;
-}
-
-.action-box {
-    margin: 50px;
-    line-height: 0.5;
-    
-}
-
-.action-text {
+    flex-direction: column;
     text-align: left;
+    gap: 0;
+    padding: 0;
+}
+
+.small {
+ font-size: 12px;
+}
+
+.footer {
+    background: #1F2937;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
 }
