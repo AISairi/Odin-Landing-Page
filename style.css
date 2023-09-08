@@ -3,7 +3,8 @@ body {
     flex-flow: column wrap;
     text-align: center;
     margin: 0;
-    background: #eee;
+    width: 100vw;
+    background: #45b3e6;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
 }
 .main {
@@ -112,6 +113,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     justify-content:space-between;
+    width: auto;
 }
 
 .quote-text {
@@ -122,7 +124,7 @@ button {
     flex-wrap: wrap;
     text-align: justify;
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color:#1F2937;
 }
 
@@ -132,4 +134,32 @@ button {
     color: #1F2937;
     font-size: 18px;
     margin-right: 10%;
+}
+
+.action {
+    flex-flow: row wrap;
+    background-color: #1F2937;
+    height: 50vh;
+    width: auto;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    color: #f9faf8;
+    gap: 0;
+}
+
+.act-box{
+    display: flex;
+    border-style: double;
+    border-color: #eee;
+}
+
+.action-box {
+    margin: 50px;
+    line-height: 0.5;
+    
+}
+
+.action-text {
+    text-align: left;
 }
